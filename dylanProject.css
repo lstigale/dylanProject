@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.main-container {
+  height: 100vh;
+  position: relative;
+  margin: 0;
+}
+
+.left {
+  font-size: 28px;
+  padding: 20px 0px 0px 40px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.right {
+  font-size: 28px;
+  padding: 0px 40px 20px 0px;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#story {
+    font-size: 24px;
+    text-align: center;
+
+}
+
+#picture {
+  padding-top: 22vh;
+  height: 300px;
+  padding-bottom: 40px;
+  align-self: center
+}
+
+#middle {
+display: flex;
+justify-content: center;
+flex-direction: column;
+height: 100%;
+}
+
+#top,
+#middle,
+#bottom {
+  margin: : 0;
+}
+
+
+.underline {
+  text-decoration: underline;
+}
+
+.underline:hover {
+  cursor: pointer;
+}
